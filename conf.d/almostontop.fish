@@ -1,4 +1,4 @@
-if status is-interactive
+if status is-interactive >/dev/null
 
     set -q ALMOSTONTOP_COLOR; or set -U ALMOSTONTOP_COLOR green
 
